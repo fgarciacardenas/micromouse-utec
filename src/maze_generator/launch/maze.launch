@@ -15,7 +15,7 @@
 
   <!-- Spawn robot model in Gazebo -->
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" 
-        args="-urdf -param robot_description -model mouse -x -0.4 -z 0.12"
+        args="-urdf -param robot_description -model mouse -x -0.8 -z 0.12"
         output="screen"/>
 
   <!-- Joint state publisher -->
