@@ -6,6 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Range1
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz/Selection
@@ -71,6 +72,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        link_infrared:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         link_left_wheel:
           Alpha: 1
           Show Axes: false
@@ -87,6 +93,16 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Alpha: 0.5
+      Buffer Length: 1
+      Class: rviz/Range
+      Color: 255; 255; 255
+      Enabled: true
+      Name: Range
+      Queue Size: 100
+      Topic: /sensor/infrared
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -115,25 +131,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.3464510440826416
+      Distance: 3.7599008083343506
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.11752001941204071
-        Y: 0.11575673520565033
-        Z: -0.08289053291082382
+        X: 0.3607877194881439
+        Y: -0.06434603035449982
+        Z: -0.2874603569507599
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4803982973098755
+      Pitch: 0.4953984022140503
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.8103979825973511
+      Yaw: 0.9353979229927063
     Saved: ~
 Window Geometry:
   Displays:
@@ -152,4 +168,4 @@ Window Geometry:
     collapsed: true
   Width: 1200
   X: 67
-  Y: 30
+  Y: 27
