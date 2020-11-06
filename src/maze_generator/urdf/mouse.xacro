@@ -166,20 +166,20 @@
   </joint>
 
   <joint name="fixed_sensor" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <origin rpy="0 0 0" xyz="0.275 0 0"/>
     <child link="link_infrared"/>
     <parent link="link_chassis"/>
   </joint>
 
   <link name="link_infrared">
     <collision>
-      <origin rpy="0 0 0" xyz="0.25 0 0"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <box size="0.05 0.05 0.05"/>
       </geometry>
     </collision>
     <visual>
-      <origin rpy="0 0 0" xyz="0.25 0 0"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <box size="0.05 0.05 0.05"/>
       </geometry>
@@ -188,7 +188,7 @@
 
   <gazebo reference="link_chassis">        
    <sensor type="ray" name="TeraRanger">
-      <pose>0.275 0 0 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
       <update_rate>50</update_rate>
       <ray>
