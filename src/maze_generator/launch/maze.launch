@@ -2,7 +2,7 @@
 <launch>
   <arg name="paused" default="false"/>
   <arg name="gui" default="true"/>
-  <arg name="rviz" default="false"/>
+  <arg name="rviz" default="true"/>
   
   <!-- Begin simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -10,6 +10,25 @@
     <arg name="paused" value="$(arg paused)"/>
     <arg name="gui" value="$(arg gui)"/>
   </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro '$(find maze_generator)/urdf/mouse.xacro'"/>
+
+  <!-- Spawn robot model in Gazebo -->
+  <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" 
+        args="-urdf -param robot_description -model mouse -z 0"
+        output="screen"/>
+
+  <!-- Joint state publisher -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="False"/>
+  </node>
+
+  <!-- Robot state publisher -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="robot_description" value="robot_description"/>
+    <param name="publish_frequency" type="double" value="50.0"/>
+    <param name="tf_prefix" type="string" value=""/>
+  </node>
 
   <!-- RViz visualization -->
   <group if="$(arg rviz)">
