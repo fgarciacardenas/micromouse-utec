@@ -1,6 +1,5 @@
-#ifndef MAZE_HPP_
-#define MAZE_HPP_
-
+// maze.hpp
+#pragma once
 #include "graph.hpp"
 #include <string>
 #include <sstream>
@@ -10,12 +9,7 @@
 #include <algorithm>
 #include <vector>
 
-
 class Maze{
-    #define wall_color "black"
-    #define way_color "white"
-    #define dfs_color "blue"
-
     protected:
         Graph grid;
         std::vector<std::vector<Node*>> maze = {};
@@ -29,7 +23,7 @@ class Maze{
             grid.createGrid(g_width, g_height);
         }
 
-        // create maze matrix
+        // Create maze matrix
         void createMaze(){
             maze.resize(g_height, std::vector<Node*>(g_width));
             for (int y = 0; y < g_height; ++y) {
@@ -42,10 +36,10 @@ class Maze{
             fillMaze();
         }
 
-        // virtual maze fill
+        // Virtual maze fill
         virtual void fillMaze(){}
         
-        // return a random starting node
+        // Return a random starting node
         Node* startingNode(){
             std::uniform_int_distribution<> randomWidth(0, grid.getWidth()-1);
             std::uniform_int_distribution<> randomHeight(0, grid.getHeight()-1);
@@ -53,99 +47,14 @@ class Maze{
             return grid.graph_matrix[randomHeight(rng)][randomWidth(rng)];
         }
 
-        // return a SVG line object
-        std::string plotline(double x1, double x2, double y1, double y2, std::string color) {
-            return "<line x1=\"" + std::to_string(x1 * 30) + "\" x2=\"" +
-                    std::to_string(x2  * 30) + "\" y1=\"" + std::to_string(y1 * 30) +
-                    "\" y2=\"" + std::to_string(y2 * 30) +
-                    "\" stroke=\"" + color + "\" stroke-linecap=\"round\" stroke-width=\"3\"/>";
-        }
-
-        // print a maze, with or without a path
-        void printMaze(std::string filename, std::vector<Node*> path = {}){
-            std::ofstream svgfile(filename+".svg");
-            if (!svgfile) {
-                std::cerr << "Error opening " << filename << ".svg for writing.\n";
-                std::cerr << "Terminating.";
-                exit(1);
-            }
-            double xmin = 0;
-            double ymin = 0;
-            double xmax = grid.getWidth();
-            double ymax = grid.getHeight();
-            int xresolution = (xmax - xmin + 2) * 30,
-                yresolution = (ymax - ymin + 2) * 30;
-
-            // svg parameters
-            svgfile << "<svg width=\"" << xresolution << "\" height=\"" << yresolution
-                    << "\" xmlns=\"http://www.w3.org/2000/svg\">" << std::endl;
-            svgfile << "<g transform=\"translate(" << (1 - xmin) * 30 << ","
-                    << yresolution - (1 - ymin) * 30 << ") scale(1,-1)\">" << std::endl;
-            svgfile << "<rect x=\"" << (xmin - 1) * 30 << "\" y=\"" << (ymin - 1) * 30
-                    << "\" width=\"" << xresolution << "\" height=\"" << yresolution
-                    << "\" fill=\"white\"/>" << std::endl;
-
-            // print maze structure
-            for (int y = 0; y < grid.getHeight(); ++y) {
-                for (int x = 0; x < grid.getWidth(); ++x) {
-                    svgfile<< plotline((*maze[y][x]).posx, (*maze[y][x]).posx+1, (*maze[y][x]).posy, (*maze[y][x]).posy, wall_color);     // bottom
-                    svgfile<< plotline((*maze[y][x]).posx+1, (*maze[y][x]).posx+1, (*maze[y][x]).posy, (*maze[y][x]).posy+1, wall_color); // right
-
-                    if (y == grid.getHeight()-1)
-                        svgfile<< plotline((*maze[y][x]).posx, (*maze[y][x]).posx+1, (*maze[y][x]).posy+1, (*maze[y][x]).posy+1, wall_color); // top
-                    if (x == 0)
-                        svgfile<< plotline((*maze[y][x]).posx, (*maze[y][x]).posx, (*maze[y][x]).posy, (*maze[y][x]).posy+1, wall_color);     // left
-                }
-            }
-
-            // "hide" mst walls
-            for (int y = 0; y < (grid.getHeight()); ++y) {
-                for (int x = 0; x < (grid.getWidth()); ++x) {
-                    //std::cout<<"node ["<< (*maze[y][x]).posx << ", "<<(*maze[y][x]).posy<<"] connected to -> ";
-                    for(int e = 0; e < (*maze[y][x]).edges.size(); ++e) {
-                        //std::cout<<"["<<(*maze[y][x]).edges[e]->posx << ", "<<(*maze[y][x]).edges[e]->posy<<"] -> ";
-                        int ex = (*maze[y][x]).edges[e]->posx,
-                            ey = (*maze[y][x]).edges[e]->posy;
-                        int nx = (*maze[y][x]).posx,
-                            ny = (*maze[y][x]).posy;
-                        int x1 = nx,
-                            x2 = nx;
-                        int y1 = ny,
-                            y2 = ny;
-                    
-                        if (ex > nx) { x1 = nx + 1; x2 = nx + 1; }
-                        else if (ex  == nx) { x1 = nx; x2 = nx + 1; }
-                        else if (ex  < nx) { x1 = nx; x2 = nx; }
-                        
-                        if (ey > ny) { y1 = ny + 1; y2 = ny + 1; }
-                        else if (ey == ny) { y1 = ny; y2 = ny + 1; }
-                        else if (ey < ny) { y1 = ny; y2 = ny; }
-
-                        svgfile<< plotline(x1,x2,y1,y2, way_color);
-                    }
-                    //std::cout<<std::endl;
-                }
-            }
-            
-            // print path (if it exists)
-            for (auto i = 0; i < path.size()-1; ++i){
-                int x = (*path[i]).posx;
-                int y = (*path[i]).posy;
-                svgfile<< plotline(x+0.5, (*path[i+1]).posx+0.5, y+0.5, (*path[i+1]).posy+0.5, dfs_color);
-            }
-            
-            svgfile << "</g>" << std::endl;
-            svgfile << "</svg>" << std::endl;
-        }
-
-        // return the maze
+        // Return the maze
         std::vector<std::vector<Node*>> getMaze() { return maze; }
 
-        // print a maze, with or without a path
+        // Print the corresponding .world file
         void printGazebo(std::string filename){
             std::ofstream worldfile(filename+".world");
             
-            // Verify that the worldfile existss
+            // Verify that the worldfile exists
             if (!worldfile) {
                 std::cerr << "Error opening " << filename << ".world for writing.\n";
                 std::cerr << "Terminating.";
@@ -390,5 +299,3 @@ class Maze{
             return (float)value / 100;
         }
 };
-
-#endif

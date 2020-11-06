@@ -199,29 +199,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall6">
-<pose>0.540000 0.090000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall7">
 <pose>0.630000 0.000000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -245,54 +222,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall8">
-<pose>0.720000 0.090000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall9">
 <pose>0.810000 0.000000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall10">
-<pose>0.900000 0.090000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -498,6 +429,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall22">
+<pose>1.980000 0.090000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall23">
 <pose>2.070000 0.000000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -521,8 +475,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall24">
-<pose>2.160000 0.090000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall25">
+<pose>2.250000 0.000000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -544,8 +498,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall25">
-<pose>2.250000 0.000000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall26">
+<pose>2.340000 0.090000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -592,6 +546,29 @@
 </model>
 <model name="labyrinth_wall29">
 <pose>2.610000 0.000000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall30">
+<pose>2.700000 0.090000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -728,8 +705,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall39">
-<pose>0.540000 0.270000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall40">
+<pose>0.630000 0.180000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -751,8 +728,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall43">
-<pose>0.900000 0.270000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall42">
+<pose>0.810000 0.180000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall44">
+<pose>0.990000 0.180000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -843,8 +843,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall49">
-<pose>1.440000 0.270000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall52">
+<pose>1.710000 0.180000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -866,8 +866,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall50">
-<pose>1.530000 0.180000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall56">
+<pose>2.070000 0.180000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -889,31 +889,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall51">
-<pose>1.620000 0.270000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall54">
-<pose>1.890000 0.180000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall57">
+<pose>2.160000 0.270000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -937,29 +914,6 @@
 </model>
 <model name="labyrinth_wall60">
 <pose>2.430000 0.180000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall61">
-<pose>2.520000 0.270000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1027,6 +981,52 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall66">
+<pose>0.090000 0.360000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall67">
+<pose>0.180000 0.450000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall68">
 <pose>0.000000 0.450000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -1050,8 +1050,77 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall69">
-<pose>0.270000 0.360000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall70">
+<pose>0.360000 0.450000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall71">
+<pose>0.450000 0.360000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall72">
+<pose>0.540000 0.450000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall73">
+<pose>0.630000 0.360000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1096,8 +1165,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall79">
-<pose>1.170000 0.360000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall75">
+<pose>0.810000 0.360000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1142,8 +1211,100 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall82">
+<pose>1.440000 0.450000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall83">
+<pose>1.530000 0.360000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall86">
 <pose>1.800000 0.450000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall87">
+<pose>1.890000 0.360000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall88">
+<pose>1.980000 0.450000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1188,29 +1349,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall91">
-<pose>2.250000 0.360000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall93">
 <pose>2.430000 0.360000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -1234,54 +1372,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall94">
-<pose>2.520000 0.450000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall96">
-<pose>2.700000 0.450000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall97">
-<pose>2.790000 0.360000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall95">
+<pose>2.610000 0.360000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1326,146 +1418,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall99">
-<pose>0.090000 0.540000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall100">
-<pose>0.180000 0.630000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall101">
 <pose>0.000000 0.630000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall103">
-<pose>0.360000 0.630000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall105">
-<pose>0.540000 0.630000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall106">
-<pose>0.630000 0.540000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall108">
-<pose>0.810000 0.540000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1533,8 +1487,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall111">
-<pose>1.080000 0.630000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall112">
+<pose>1.170000 0.540000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall113">
+<pose>1.260000 0.630000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1602,100 +1579,31 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall116">
+<pose>1.530000 0.540000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall118">
 <pose>1.710000 0.540000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall120">
-<pose>1.890000 0.540000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall121">
-<pose>1.980000 0.630000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall122">
-<pose>2.070000 0.540000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall123">
-<pose>2.160000 0.630000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1786,6 +1694,52 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall128">
+<pose>2.610000 0.540000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall129">
+<pose>2.700000 0.630000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall131">
 <pose>2.880000 0.630000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -1855,8 +1809,54 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall138">
-<pose>0.540000 0.810000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall136">
+<pose>0.360000 0.810000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall137">
+<pose>0.450000 0.720000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall139">
+<pose>0.630000 0.720000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -1970,8 +1970,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall150">
-<pose>1.620000 0.810000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall149">
+<pose>1.530000 0.720000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2016,8 +2016,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall153">
-<pose>1.890000 0.720000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall154">
+<pose>1.980000 0.810000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2062,8 +2062,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall162">
-<pose>2.700000 0.810000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall159">
+<pose>2.430000 0.720000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall160">
+<pose>2.520000 0.810000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2154,8 +2177,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall170">
-<pose>0.450000 0.900000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall169">
+<pose>0.360000 0.990000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2200,8 +2223,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall173">
-<pose>0.720000 0.990000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall175">
+<pose>0.900000 0.990000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2223,8 +2246,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall177">
-<pose>1.080000 0.990000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall176">
+<pose>0.990000 0.900000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2246,8 +2269,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall178">
-<pose>1.170000 0.900000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall179">
+<pose>1.260000 0.990000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2315,8 +2338,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall182">
-<pose>1.530000 0.900000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall184">
+<pose>1.710000 0.900000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2338,31 +2361,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall183">
-<pose>1.620000 0.990000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall185">
-<pose>1.800000 0.990000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall186">
+<pose>1.890000 0.900000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2453,8 +2453,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall191">
-<pose>2.340000 0.990000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall190">
+<pose>2.250000 0.900000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2476,8 +2476,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall193">
-<pose>2.520000 0.990000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall194">
+<pose>2.610000 0.900000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2501,6 +2501,29 @@
 </model>
 <model name="labyrinth_wall195">
 <pose>2.700000 0.990000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall196">
+<pose>2.790000 0.900000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2637,52 +2660,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall202">
-<pose>0.360000 1.170000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall203">
-<pose>0.450000 1.080000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall205">
 <pose>0.630000 1.080000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -2706,8 +2683,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall207">
-<pose>0.810000 1.080000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall206">
+<pose>0.720000 1.170000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2752,8 +2729,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall210">
-<pose>1.080000 1.170000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall209">
+<pose>0.990000 1.080000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2775,8 +2752,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall211">
-<pose>1.170000 1.080000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall216">
+<pose>1.620000 1.170000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall217">
+<pose>1.710000 1.080000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2821,31 +2821,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall219">
-<pose>1.890000 1.080000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall222">
-<pose>2.160000 1.170000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall220">
+<pose>1.980000 1.170000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2890,8 +2867,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall225">
-<pose>2.430000 1.080000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall224">
+<pose>2.340000 1.170000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2913,8 +2890,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall228">
-<pose>2.700000 1.170000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall226">
+<pose>2.520000 1.170000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -2982,8 +2959,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall236">
-<pose>0.450000 1.260000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall234">
+<pose>0.270000 1.260000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3005,8 +2982,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall240">
-<pose>0.810000 1.260000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall235">
+<pose>0.360000 1.350000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3028,8 +3005,77 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall241">
-<pose>0.900000 1.350000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall238">
+<pose>0.630000 1.260000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall239">
+<pose>0.720000 1.350000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall242">
+<pose>0.990000 1.260000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall243">
+<pose>1.080000 1.350000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3097,8 +3143,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall249">
-<pose>1.620000 1.350000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall252">
+<pose>1.890000 1.260000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3120,8 +3166,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall251">
-<pose>1.800000 1.350000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall255">
+<pose>2.160000 1.350000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3143,8 +3189,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall254">
-<pose>2.070000 1.260000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall256">
+<pose>2.250000 1.260000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3189,54 +3235,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall259">
-<pose>2.520000 1.350000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall260">
 <pose>2.610000 1.260000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall261">
-<pose>2.700000 1.350000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3281,8 +3281,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall265">
-<pose>0.180000 1.530000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall264">
+<pose>0.090000 1.440000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3327,8 +3327,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall268">
-<pose>0.360000 1.530000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall269">
+<pose>0.450000 1.440000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3350,31 +3350,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall270">
-<pose>0.540000 1.530000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall273">
-<pose>0.810000 1.440000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall271">
+<pose>0.630000 1.440000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3442,8 +3419,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall277">
-<pose>1.170000 1.440000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall278">
+<pose>1.260000 1.530000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3488,29 +3465,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall281">
-<pose>1.530000 1.440000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall282">
 <pose>1.620000 1.530000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -3534,8 +3488,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall283">
-<pose>1.710000 1.440000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall284">
+<pose>1.800000 1.530000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3557,8 +3511,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall285">
-<pose>1.890000 1.440000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall287">
+<pose>2.070000 1.440000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3580,8 +3534,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall288">
-<pose>2.160000 1.530000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall289">
+<pose>2.250000 1.440000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3626,8 +3580,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall292">
-<pose>2.520000 1.530000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall293">
+<pose>2.610000 1.440000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3695,8 +3649,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall297">
-<pose>0.090000 1.620000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall298">
+<pose>0.180000 1.710000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3743,29 +3697,6 @@
 </model>
 <model name="labyrinth_wall300">
 <pose>0.270000 1.620000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall302">
-<pose>0.450000 1.620000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3856,8 +3787,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall309">
-<pose>1.080000 1.710000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall307">
+<pose>0.900000 1.710000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall308">
+<pose>0.990000 1.620000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -3925,6 +3879,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall314">
+<pose>1.530000 1.620000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall315">
 <pose>1.620000 1.710000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -3971,6 +3948,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall317">
+<pose>1.800000 1.710000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall318">
 <pose>1.890000 1.620000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -3994,8 +3994,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall319">
-<pose>1.980000 1.710000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall320">
+<pose>2.070000 1.620000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4017,8 +4017,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall322">
-<pose>2.250000 1.620000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall321">
+<pose>2.160000 1.710000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4063,29 +4063,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall325">
-<pose>2.520000 1.710000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall326">
 <pose>2.610000 1.620000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -4109,8 +4086,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall327">
-<pose>2.700000 1.710000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall328">
+<pose>2.790000 1.620000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4178,29 +4155,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall331">
-<pose>0.180000 1.890000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall332">
 <pose>0.000000 1.890000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -4224,8 +4178,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall333">
-<pose>0.270000 1.800000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall335">
+<pose>0.450000 1.800000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4247,8 +4201,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall336">
-<pose>0.540000 1.890000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall337">
+<pose>0.630000 1.800000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4293,8 +4247,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall342">
-<pose>1.080000 1.890000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall341">
+<pose>0.990000 1.800000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4362,31 +4316,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall348">
-<pose>1.620000 1.890000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall350">
-<pose>1.800000 1.890000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall351">
+<pose>1.890000 1.800000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4431,8 +4362,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall353">
-<pose>2.070000 1.800000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall355">
+<pose>2.250000 1.800000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4454,8 +4385,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall357">
-<pose>2.430000 1.800000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall356">
+<pose>2.340000 1.890000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4479,6 +4410,52 @@
 </model>
 <model name="labyrinth_wall358">
 <pose>2.520000 1.890000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall360">
+<pose>2.700000 1.890000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall361">
+<pose>2.790000 1.800000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4592,8 +4569,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall370">
-<pose>0.630000 1.980000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall368">
+<pose>0.450000 1.980000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4638,54 +4615,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall373">
-<pose>0.900000 2.070000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall374">
 <pose>0.990000 1.980000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall377">
-<pose>1.260000 2.070000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4730,8 +4661,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall383">
-<pose>1.800000 2.070000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall379">
+<pose>1.440000 2.070000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4753,8 +4684,54 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall386">
-<pose>2.070000 1.980000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall380">
+<pose>1.530000 1.980000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall381">
+<pose>1.620000 2.070000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall383">
+<pose>1.800000 2.070000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4799,31 +4776,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall390">
-<pose>2.430000 1.980000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall391">
-<pose>2.520000 2.070000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall389">
+<pose>2.340000 2.070000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4868,8 +4822,54 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall393">
+<pose>2.700000 2.070000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall395">
 <pose>2.880000 2.070000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall396">
+<pose>0.090000 2.160000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -4960,6 +4960,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall400">
+<pose>0.360000 2.250000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall401">
 <pose>0.450000 2.160000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -4983,8 +5006,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall402">
-<pose>0.540000 2.250000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall403">
+<pose>0.630000 2.160000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5006,8 +5029,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall406">
-<pose>0.900000 2.250000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall407">
+<pose>0.990000 2.160000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5052,8 +5075,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall410">
-<pose>1.260000 2.250000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall409">
+<pose>1.170000 2.160000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5075,77 +5098,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall412">
-<pose>1.440000 2.250000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall413">
-<pose>1.530000 2.160000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall416">
-<pose>1.800000 2.250000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall418">
-<pose>1.980000 2.250000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall415">
+<pose>1.710000 2.160000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5169,6 +5123,29 @@
 </model>
 <model name="labyrinth_wall419">
 <pose>2.070000 2.160000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall420">
+<pose>2.160000 2.250000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5259,8 +5236,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall425">
-<pose>2.610000 2.160000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall426">
+<pose>2.700000 2.250000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5351,29 +5328,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall435">
-<pose>0.540000 2.430000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall436">
 <pose>0.630000 2.340000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -5397,8 +5351,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall440">
-<pose>0.990000 2.340000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall439">
+<pose>0.900000 2.430000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5443,29 +5397,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall442">
-<pose>1.170000 2.340000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall443">
 <pose>1.260000 2.430000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -5489,8 +5420,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall444">
-<pose>1.350000 2.340000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall445">
+<pose>1.440000 2.430000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5535,8 +5466,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall450">
-<pose>1.890000 2.340000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall448">
+<pose>1.710000 2.340000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5581,8 +5512,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall454">
-<pose>2.250000 2.340000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall456">
+<pose>2.430000 2.340000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5627,29 +5558,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall459">
-<pose>2.700000 2.430000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall461">
 <pose>2.880000 2.430000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -5673,8 +5581,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall463">
-<pose>0.180000 2.610000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall462">
+<pose>0.090000 2.520000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5719,8 +5627,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall466">
-<pose>0.360000 2.610000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall465">
+<pose>0.270000 2.520000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5742,8 +5650,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall470">
-<pose>0.720000 2.610000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall467">
+<pose>0.450000 2.520000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5788,6 +5696,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall473">
+<pose>0.990000 2.520000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall474">
 <pose>1.080000 2.610000 0.09 0 0 1.570796</pose>
 <link name="link">
@@ -5811,8 +5742,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall479">
-<pose>1.530000 2.520000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall475">
+<pose>1.170000 2.520000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5834,8 +5765,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall480">
-<pose>1.620000 2.610000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall476">
+<pose>1.260000 2.610000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall478">
+<pose>1.440000 2.610000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -5880,6 +5834,52 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall482">
+<pose>1.800000 2.610000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall483">
+<pose>1.890000 2.520000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall485">
 <pose>2.070000 2.520000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -5903,54 +5903,77 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall486">
-<pose>2.160000 2.610000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall487">
-<pose>2.250000 2.520000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall488">
 <pose>2.340000 2.610000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall490">
+<pose>2.520000 2.610000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall491">
+<pose>2.610000 2.520000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall492">
+<pose>2.700000 2.610000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6087,6 +6110,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall500">
+<pose>0.360000 2.790000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall501">
 <pose>0.270000 2.880000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -6110,54 +6156,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall502">
-<pose>0.450000 2.700000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall503">
-<pose>0.540000 2.790000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall504">
 <pose>0.450000 2.880000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall505">
+<pose>0.630000 2.700000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6225,8 +6248,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall510">
-<pose>0.810000 2.880000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall508">
+<pose>0.810000 2.700000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6248,8 +6271,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall511">
-<pose>0.990000 2.700000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall510">
+<pose>0.810000 2.880000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6294,29 +6317,6 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall515">
-<pose>1.260000 2.790000 0.09 0 0 1.570796</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall516">
 <pose>1.170000 2.880000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -6340,8 +6340,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall518">
-<pose>1.440000 2.790000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall517">
+<pose>1.350000 2.700000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6386,8 +6386,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall522">
-<pose>1.530000 2.880000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall520">
+<pose>1.530000 2.700000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6409,8 +6409,31 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall523">
-<pose>1.710000 2.700000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall521">
+<pose>1.620000 2.790000 0.09 0 0 1.570796</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
+<model name="labyrinth_wall522">
+<pose>1.530000 2.880000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6524,8 +6547,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall531">
-<pose>2.070000 2.880000 0.09 0 0 0.000000</pose>
+<model name="labyrinth_wall530">
+<pose>2.160000 2.790000 0.09 0 0 1.570796</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6547,8 +6570,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall533">
-<pose>2.340000 2.790000 0.09 0 0 1.570796</pose>
+<model name="labyrinth_wall531">
+<pose>2.070000 2.880000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
@@ -6593,6 +6616,29 @@
 </link>
 <static>true</static>
 </model>
+<model name="labyrinth_wall535">
+<pose>2.430000 2.700000 0.09 0 0 0.000000</pose>
+<link name="link">
+<inertial>
+<mass>3.0</mass>
+</inertial>
+<collision name="collision">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</collision>
+<visual name="visual">
+<geometry>
+<box>
+<size>0.180 0.050 0.180</size>
+</box>
+</geometry>
+</visual>
+</link>
+<static>true</static>
+</model>
 <model name="labyrinth_wall537">
 <pose>2.430000 2.880000 0.09 0 0 0.000000</pose>
 <link name="link">
@@ -6616,54 +6662,8 @@
 </link>
 <static>true</static>
 </model>
-<model name="labyrinth_wall538">
-<pose>2.610000 2.700000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
 <model name="labyrinth_wall540">
 <pose>2.610000 2.880000 0.09 0 0 0.000000</pose>
-<link name="link">
-<inertial>
-<mass>3.0</mass>
-</inertial>
-<collision name="collision">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</collision>
-<visual name="visual">
-<geometry>
-<box>
-<size>0.180 0.050 0.180</size>
-</box>
-</geometry>
-</visual>
-</link>
-<static>true</static>
-</model>
-<model name="labyrinth_wall541">
-<pose>2.790000 2.700000 0.09 0 0 0.000000</pose>
 <link name="link">
 <inertial>
 <mass>3.0</mass>
