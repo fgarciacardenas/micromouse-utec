@@ -1,0 +1,114 @@
+"<sdf version=\'1.6\'>\n" <<
+"<world name=\'default\'>\n" <<
+"<light name=\'sun\' type=\'directional\'>\n" <<
+"<cast_shadows>1</cast_shadows>\n" <<
+"<pose frame=\'\'>0 0 10 0 -0 0</pose>\n" <<
+"<diffuse>0.8 0.8 0.8 1</diffuse>\n" <<
+"<specular>0.2 0.2 0.2 1</specular>\n" <<
+"<attenuation>\n" <<
+"<range>1000</range>\n" <<
+"<constant>0.9</constant>\n" <<
+"<linear>0.01</linear>\n" <<
+"<quadratic>0.001</quadratic>\n" <<
+"</attenuation>\n" <<
+"<direction>-0.5 0.1 -0.9</direction>\n" <<
+"</light>\n" <<
+"<model name=\'ground_plane\'>\n" <<
+"<static>1</static>\n" <<
+"<link name=\'link\'>\n" <<
+"<collision name=\'collision\'>\n" <<
+"<geometry>\n" <<
+"<plane>\n" <<
+"<normal>0 0 1</normal>\n" <<
+"<size>100 100</size>\n" <<
+"</plane>\n" <<
+"</geometry>\n" <<
+"<surface>\n" <<
+"<friction>\n" <<
+"<ode>\n" <<
+"<mu>100</mu>\n" <<
+"<mu2>50</mu2>\n" <<
+"</ode>\n" <<
+"<torsional>\n" <<
+"<ode/>\n" <<
+"</torsional>\n" <<
+"</friction>\n" <<
+"<contact>\n" <<
+"<ode/>\n" <<
+"</contact>\n" <<
+"<bounce/>\n" <<
+"</surface>\n" <<
+"<max_contacts>10</max_contacts>\n" <<
+"</collision>\n" <<
+"<visual name=\'visual\'>\n" <<
+"<cast_shadows>0</cast_shadows>\n" <<
+"<geometry>\n" <<
+"<plane>\n" <<
+"<normal>0 0 1</normal>\n" <<
+"<size>100 100</size>\n" <<
+"</plane>\n" <<
+"</geometry>\n" <<
+"<material>\n" <<
+"<script>\n" <<
+"<uri>file://media/materials/scripts/gazebo.material</uri>\n" <<
+"<name>Gazebo/Grey</name>\n" <<
+"</script>\n" <<
+"</material>\n" <<
+"</visual>\n" <<
+"<self_collide>0</self_collide>\n" <<
+"<enable_wind>0</enable_wind>\n" <<
+"<kinematic>0</kinematic>\n" <<
+"</link>\n" <<
+"</model>\n" <<
+"<gravity>0 0 -9.8</gravity>\n" <<
+"<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>\n" <<
+"<atmosphere type=\'adiabatic\'/>\n" <<
+"<physics name=\'default_physics\' default=\'0\' type=\'ode\'>\n" <<
+"<max_step_size>0.001</max_step_size>\n" <<
+"<real_time_factor>1</real_time_factor>\n" <<
+"<real_time_update_rate>1000</real_time_update_rate>\n" <<
+"</physics>\n" <<
+"<scene>\n" <<
+"<ambient>0.4 0.4 0.4 1</ambient>\n" <<
+"<background>0.7 0.7 0.7 1</background>\n" <<
+"<shadows>1</shadows>\n" <<
+"</scene>\n" <<
+"<audio>\n" <<
+"<device>default</device>\n" <<
+"</audio>\n" <<
+"<wind/>\n" <<
+"<spherical_coordinates>\n" <<
+"<surface_model>EARTH_WGS84</surface_model>\n" <<
+"<latitude_deg>0</latitude_deg>\n" <<
+"<longitude_deg>0</longitude_deg>\n" <<
+"<elevation>0</elevation>\n" <<
+"<heading_deg>0</heading_deg>\n" <<
+"</spherical_coordinates>\n" <<
+"<state world_name=\'default\'>\n" <<
+"<sim_time>33 531000000</sim_time>\n" <<
+"<real_time>33 696388605</real_time>\n" <<
+"<wall_time>1601243306 962712131</wall_time>\n" <<
+"<iterations>33531</iterations>\n"
+"<model name=\'ground_plane\'\n>" <<
+"<pose frame=\'\'>0 0 0 0 -0 0</pose>\n" <<
+"<scale>1 1 1</scale>\n" <<
+"<link name=\'link\'>\n" <<
+"<pose frame=\'\'>0 0 0 0 -0 0</pose>\n" <<
+"<velocity>0 0 0 0 -0 0</velocity>\n" <<
+"<acceleration>0 0 0 0 -0 0</acceleration>\n" <<
+"<wrench>0 0 0 0 -0 0</wrench>\n" <<
+"</link>\n" <<
+"</model>\n" <<
+"<light name=\'sun\'>\n" <<
+"<pose frame=\'\'>0 0 10 0 -0 0</pose>\n" <<
+"</light>\n" <<
+"</state>\n" <<
+"<gui fullscreen=\'0\'>\n" <<
+"<camera name=\'user_camera\'>\n" <<
+"<pose frame=\'\'>5.94249 -3.74514 2.36968 -0 0.383643 2.48819</pose>\n" <<
+"<view_controller>orbit</view_controller>\n" <<
+"<projection_type>perspective</projection_type>\n" <<
+"</camera>\n" <<
+"</gui>\n" <<
+"</world>\n" <<
+"</sdf>"
