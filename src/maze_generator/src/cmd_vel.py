@@ -5,7 +5,7 @@ from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 import sys, select, os, tty, termios
 
-msg = """
+infoMsg = """
 Control Your Micromouse!
 ---------------------------
 Moving around:
@@ -21,10 +21,8 @@ e = """
 Communications Failed
 """
 
+# Python input from terminal
 def getKey():
-    if os.name == 'nt':
-      return msvcrt.getch()
-
     tty.setraw(sys.stdin.fileno())
     rlist, _, _ = select.select([sys.stdin], [], [], 0.1)
     if rlist:
@@ -36,7 +34,7 @@ def getKey():
     return key
 
 def updateMessage(msg, linear_x, angular_z):
-    # Asignar los valores al mensaje
+    # Assign values
     msg.linear.x = linear_x
     msg.linear.y = 0.0
     msg.linear.z = 0.0
@@ -62,23 +60,49 @@ if __name__ == '__main__':
     # Rate
     rate = rospy.Rate(100)
 
-    print(msg)
+    # Information of how to control the robot
+    print(infoMsg)
+
+    # Increase and decrease speed value
+    step = 0.1
+    # Linear and angular velocities
+    linear = 0.0
+    angular = 0.0
+    # Top velocities
+    top_linear = 0.26
+    top_angular = 0.5
+    
     while not rospy.is_shutdown():
         # Update speed values
         key = getKey()
         if key == "w":
-            twist_msg = updateMessage(twist_msg, 0.26, 0.0)
+            linear = linear + step
+            angular = 0.0
         elif key == "a":
-            twist_msg = updateMessage(twist_msg, 0.0, 0.2)
+            linear = 0.0
+            angular = angular + step
         elif key == "s":
-            twist_msg = updateMessage(twist_msg, -0.26, 0.0)
+            linear = linear - step
+            angular = 0.0
         elif key == "d":
-            twist_msg = updateMessage(twist_msg, 0.0, -0.2)
+            linear = 0.0
+            angular = angular - step
         elif key == " ":
             twist_msg = updateMessage(twist_msg, 0.0, 0.0)
         elif (key == '\x03'): # Stop with ctrl+c
             break
+
+        # Limit velocity values
+        if abs(linear) > top_linear:
+            linear = top_linear
+        
+        if abs(angular) > top_angular:
+            angular = top_angular
+
+        twist_msg = updateMessage(twist_msg, linear, angular)
+        
         # Publish updated message
         pub.publish(twist_msg)
+        
         # Wait
         rate.sleep()
