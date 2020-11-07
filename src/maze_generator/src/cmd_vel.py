@@ -64,31 +64,29 @@ if __name__ == '__main__':
     print(infoMsg)
 
     # Increase and decrease speed value
-    step = 0.1
+    step_linear = 0.02
+    step_angular = 0.2
     # Linear and angular velocities
     linear = 0.0
     angular = 0.0
     # Top velocities
     top_linear = 0.26
-    top_angular = 0.5
+    top_angular = 5
     
     while not rospy.is_shutdown():
         # Update speed values
         key = getKey()
         if key == "w":
-            linear = linear + step
-            angular = 0.0
+            linear = linear + step_linear
         elif key == "a":
-            linear = 0.0
-            angular = angular + step
+            angular = angular - step_angular
         elif key == "s":
-            linear = linear - step
-            angular = 0.0
+            linear = linear - step_linear
         elif key == "d":
-            linear = 0.0
-            angular = angular - step
+            angular = angular + step_angular
         elif key == " ":
-            twist_msg = updateMessage(twist_msg, 0.0, 0.0)
+            linear = 0.0
+            angular = 0.0
         elif (key == '\x03'): # Stop with ctrl+c
             break
 
