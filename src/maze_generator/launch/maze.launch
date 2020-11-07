@@ -3,7 +3,7 @@
   <arg name="paused" default="false"/>
   <arg name="gui" default="true"/>
   <arg name="rviz" default="true"/>
-  <arg name="robot" default="mouse_full"/>
+  <arg name="robot" default="mouse_lidar"/>
   
   <!-- Begin simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -16,7 +16,7 @@
 
   <!-- Spawn robot model in Gazebo -->
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" 
-        args="-urdf -param robot_description -model mouse -x -0.8 -z 0.12"
+        args="-urdf -param robot_description -model mouse -x 0.1 -y 0.1 -z 0.1"
         output="screen"/>
 
   <!-- Joint state publisher -->
