@@ -9,6 +9,21 @@
 #include <algorithm>
 #include <vector>
 
+#ifdef WINDOWS
+#include <direct.h>
+#define GetCurrentDir _getcwd
+#else
+#include <unistd.h>
+#define GetCurrentDir getcwd
+#endif
+
+std::string get_current_dir() {
+   char buff[FILENAME_MAX]; //create string buffer to hold path
+   GetCurrentDir( buff, FILENAME_MAX );
+   std::string current_working_dir(buff);
+   return current_working_dir;
+}
+
 class Maze{
     protected:
         Graph grid;
@@ -52,7 +67,8 @@ class Maze{
 
         // Print the corresponding .world file
         void printGazebo(std::string filename){
-            std::ofstream worldfile(filename+".world");
+            std::string path = get_current_dir() + "/../../world/";
+            std::ofstream worldfile(path+filename+".world");
             
             // Verify that the worldfile exists
             if (!worldfile) {
@@ -238,6 +254,8 @@ class Maze{
                         "</gui>\n" <<
                         "</world>\n" <<
                         "</sdf>";
+
+            std::cout << "A new maze was generated" << std::endl;
         }
 
         struct Wall {

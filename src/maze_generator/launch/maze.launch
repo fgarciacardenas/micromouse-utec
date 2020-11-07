@@ -4,10 +4,16 @@
   <arg name="gui" default="true"/>
   <arg name="rviz" default="true"/>
   <arg name="robot" default="mouse_lidar"/>
+  <arg name="new_maze" default="false"/>
+
+  <!-- Generate maze file -->
+  <group if="$(arg new_maze)">
+    <node name="random_maze" pkg="maze_generator" type="generate_maze"/>
+  </group>
   
   <!-- Begin simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" default="$(find maze_generator)/src/kruscal_maze.world"/>
+    <arg name="world_name" default="$(find maze_generator)/world/kruscal_maze.world"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="gui" value="$(arg gui)"/>
   </include>
