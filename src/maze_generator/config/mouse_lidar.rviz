@@ -125,7 +125,7 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.0020000000949949026
+      Size (m): 0.019999999552965164
       Style: Spheres
       Topic: /scan
       Unreliable: false
@@ -160,25 +160,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 0.5200471878051758
+      Distance: 5.938024520874023
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.19511176645755768
-        Y: -0.1082499623298645
-        Z: 0.10934849083423615
+        X: 1.3266445398330688
+        Y: 0.30067121982574463
+        Z: 0.23944927752017975
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.420398473739624
+      Pitch: 0.5603983402252197
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.0085625648498535
+      Yaw: 5.068560600280762
     Saved: ~
 Window Geometry:
   Displays:
