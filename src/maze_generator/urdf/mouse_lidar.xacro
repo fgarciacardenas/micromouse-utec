@@ -156,7 +156,7 @@
     <limit effort="10000" velocity="1000"/>
     <joint_properties damping="1.0" friction="1.0"/>
   </joint>
-  
+
   <!-- IMU Sensor -->
   <link name="imu_link"/>
 
@@ -241,8 +241,8 @@
           </horizontal>
         </scan>
         <range>
-          <min>0.012</min>
-          <max>0.35</max>
+          <min>0.12</min>
+          <max>4.8</max>
           <resolution>0.015</resolution>
         </range>
         <noise>

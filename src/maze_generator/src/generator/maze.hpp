@@ -176,21 +176,22 @@ class Maze{
             int id = 0;
             std::vector<Wall> wall_list = {};
             constexpr float half_pi = 1.570796;
+            constexpr float wall_size = 1.8;
             for (int y = 0; y < grid.getHeight(); ++y) {
                 for (int x = 0; x < grid.getWidth(); ++x) {
                     // Spawn bottom wall
-                    spawn_wall(wall_list, id, round(((*maze[y][x]).posx*0.18 + (*maze[y][x]).posx*0.18+0.18)/2), round(((*maze[y][x]).posy*0.18 + (*maze[y][x]).posy*0.18)/2), 0.0);
+                    spawn_wall(wall_list, id, round(((*maze[y][x]).posx*wall_size + (*maze[y][x]).posx*wall_size+wall_size)/2), round(((*maze[y][x]).posy*wall_size + (*maze[y][x]).posy*wall_size)/2), 0.0);
                     
                     // Spawn right wall
-                    spawn_wall(wall_list, id, round(((*maze[y][x]).posx*0.18+0.18 + (*maze[y][x]).posx*0.18+0.18)/2), round(((*maze[y][x]).posy*0.18 + (*maze[y][x]).posy*0.18+0.18)/2), half_pi);
+                    spawn_wall(wall_list, id, round(((*maze[y][x]).posx*wall_size+wall_size + (*maze[y][x]).posx*wall_size+wall_size)/2), round(((*maze[y][x]).posy*wall_size + (*maze[y][x]).posy*wall_size+wall_size)/2), half_pi);
                     
                     // Spawn top wall
                     if (y == grid.getHeight()-1)
-                        spawn_wall(wall_list, id, round(((*maze[y][x]).posx*0.18 + (*maze[y][x]).posx*0.18+0.18)/2), round(((*maze[y][x]).posy*0.18+0.18 + (*maze[y][x]).posy*0.18+0.18)/2), 0.0);
+                        spawn_wall(wall_list, id, round(((*maze[y][x]).posx*wall_size + (*maze[y][x]).posx*wall_size+wall_size)/2), round(((*maze[y][x]).posy*wall_size+wall_size + (*maze[y][x]).posy*wall_size+wall_size)/2), 0.0);
                     
                     // Spawn left wall
                     if (x == 0)
-                        spawn_wall(wall_list, id, round(((*maze[y][x]).posx*0.18 + (*maze[y][x]).posx*0.18)/2), round(((*maze[y][x]).posy*0.18 + (*maze[y][x]).posy*0.18+0.18)/2), half_pi);
+                        spawn_wall(wall_list, id, round(((*maze[y][x]).posx*wall_size + (*maze[y][x]).posx*wall_size)/2), round(((*maze[y][x]).posy*wall_size + (*maze[y][x]).posy*wall_size+wall_size)/2), half_pi);
                 }
             }
 
@@ -217,7 +218,7 @@ class Maze{
                         else if (ey == ny) { y1 = ny; y2 = ny + 1; }
                         else if (ey < ny) { y1 = ny; y2 = ny; }
                         //std::cout << "X1: " << (x1+x2)/2 << ", X2: " << (y1+y2)/2 << std::endl;
-                        remove_wall(wall_list, round(0.18*(x1+x2)/2), round(0.18*(y1+y2)/2));
+                        remove_wall(wall_list, round(wall_size*(x1+x2)/2), round(wall_size*(y1+y2)/2));
                     }
                     //std::cout << std::endl;
                 }
@@ -266,7 +267,7 @@ class Maze{
                 std::stringstream wallsdf;
                 wallsdf << "<model name=\"labyrinth_wall" << std::to_string(this->id) << "\">\n" <<
                 "<pose>" << std::to_string(this->posx) << " " << std::to_string(this->posy) << 
-                   " 0.09 0 0 " << std::to_string(this->orientation) << "</pose>\n" <<
+                   " 0.9 0 0 " << std::to_string(this->orientation) << "</pose>\n" <<
                 "<link name=\"link\">\n" <<
                 "<inertial>\n" <<
                 "<mass>3.0</mass>\n" <<
@@ -274,14 +275,14 @@ class Maze{
                 "<collision name=\"collision\">\n" <<
                 "<geometry>\n" <<
                 "<box>\n" <<
-                "<size>0.180 0.050 0.180</size>\n" <<
+                "<size>1.8 0.5 1.8</size>\n" <<
                 "</box>\n" <<
                 "</geometry>\n" <<
                 "</collision>\n" <<
                 "<visual name=\"visual\">\n" <<
                 "<geometry>\n" <<
                 "<box>\n" <<
-                "<size>0.180 0.050 0.180</size>\n" <<
+                "<size>1.8 0.5 1.8</size>\n" <<
                 "</box>\n" <<
                 "</geometry>\n" <<
                 "</visual>\n" <<
