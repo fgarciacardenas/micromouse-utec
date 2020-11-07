@@ -22,7 +22,7 @@
 
   <!-- Spawn robot model in Gazebo -->
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" 
-        args="-urdf -param robot_description -model mouse -x 0.1 -y 0.1 -z 0.1"
+        args="-urdf -param robot_description -model mouse -x 1 -y 1 -z 1"
         output="screen"/>
 
   <!-- Joint state publisher -->
