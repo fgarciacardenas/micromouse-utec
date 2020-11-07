@@ -3,6 +3,7 @@
   <arg name="paused" default="false"/>
   <arg name="gui" default="true"/>
   <arg name="rviz" default="true"/>
+  <arg name="robot" default="mouse_full"/>
   
   <!-- Begin simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -11,7 +12,7 @@
     <arg name="gui" value="$(arg gui)"/>
   </include>
 
-  <param name="robot_description" command="$(find xacro)/xacro '$(find maze_generator)/urdf/mouse.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find maze_generator)/urdf/$(arg robot).xacro'"/>
 
   <!-- Spawn robot model in Gazebo -->
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" 
@@ -32,6 +33,6 @@
 
   <!-- RViz visualization -->
   <group if="$(arg rviz)">
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find maze_generator)/config/maze.rviz" required="true" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find maze_generator)/config/$(arg robot).rviz" required="true" />
   </group>
 </launch>
