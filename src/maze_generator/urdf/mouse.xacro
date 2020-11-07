@@ -102,8 +102,8 @@
   <link name="chassis_inertia">
     <inertial>
       <mass value="0.5"/>
-      <origin rpy="0 0 0" xyz="0 0 0.1"/>
-      <inertia ixx="0.0395416666667" ixy="0" ixz="0" iyy="0.106208333333" iyz="0" izz="0.106208333333"/>
+      <origin rpy="1.5707 0 1.5707" xyz="0 0 0"/>
+      <inertia ixx="0.0001062083333" ixy="0" ixz="0" iyy="0.0001416666667" iyz="0" izz="0.00003954166667"/>
     </inertial>
   </link>
 
@@ -111,7 +111,7 @@
     <inertial>
       <mass value="0.02"/>
       <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
-      <inertia ixx="0.000526666666667" ixy="0" ixz="0" iyy="0.000526666666667" iyz="0" izz="0.001"/>
+      <inertia ixx="0.000000526666666667" ixy="0" ixz="0" iyy="0.000000526666666667" iyz="0" izz="0.00000016"/>
     </inertial>
     <collision name="link_right_wheel_collision">
       <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
@@ -140,7 +140,7 @@
     <inertial>
       <mass value="0.02"/>
       <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
-      <inertia ixx="0.000526666666667" ixy="0" ixz="0" iyy="0.000526666666667" iyz="0" izz="0.001"/>
+      <inertia ixx="0.000000526666666667" ixy="0" ixz="0" iyy="0.000000526666666667" iyz="0" izz="0.00000016"/>
     </inertial>
     <collision name="link_left_wheel_collision">
       <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
