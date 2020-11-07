@@ -156,9 +156,7 @@
     <limit effort="10000" velocity="1000"/>
     <joint_properties damping="1.0" friction="1.0"/>
   </joint>
-
   
-
   <!-- IMU Sensor -->
   <link name="imu_link"/>
 
