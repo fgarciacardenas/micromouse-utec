@@ -12,7 +12,7 @@ Moving around:
         w
    a    s    d
 
-space key, s : force stop
+space key : force stop
 
 CTRL-C to quit
 """
