@@ -64,13 +64,13 @@ if __name__ == '__main__':
     print(infoMsg)
 
     # Increase and decrease speed value
-    step_linear = 0.02
+    step_linear = 0.04
     step_angular = 0.2
     # Linear and angular velocities
     linear = 0.0
     angular = 0.0
     # Top velocities
-    top_linear = 0.26
+    top_linear = 0.50
     top_angular = 5
     
     while not rospy.is_shutdown():

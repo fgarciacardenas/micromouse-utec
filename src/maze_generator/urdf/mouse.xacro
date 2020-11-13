@@ -84,21 +84,21 @@
       <origin rpy="0 0 0" xyz="0 0 0.105"/>
       <geometry>
         <box size="0.48 0.48 0.21"/>
-        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_v2_lidar.stl" scale="0.003 0.003 0.003"/-->
+        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_lidar.stl" scale="0.003 0.003 0.003"/-->
       </geometry>
     </collision>
     <collision name="collision_chassis">
       <origin rpy="0 0 0" xyz="0.06 0 0.28"/>
       <geometry>
         <box size="0.2955 0.21 0.16"/>
-        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_v2_lidar.stl" scale="0.003 0.003 0.003"/-->
+        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_lidar.stl" scale="0.003 0.003 0.003"/-->
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!--box size="0.48 0.48 0.21"/-->
-        <mesh filename="package://maze_generator/urdf/meshes/umouse_v2_lidar.stl" scale="0.003 0.003 0.003"/>
+        <mesh filename="package://maze_generator/urdf/meshes/umouse_lidar.stl" scale="0.003 0.003 0.003"/>
       </geometry>
       <material name="blue"/>
     </visual>
@@ -180,14 +180,14 @@
       <origin rpy="0 1.570796 1.570796" xyz="0 0.015 0"/>
       <geometry>
         <cylinder length="0.03" radius="0.09"/>
-        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_v2_wheel.stl" scale="0.003 0.003 0.003"/-->
+        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_wheel.stl" scale="0.003 0.003 0.003"/-->
       </geometry>
     </collision>
     <visual name="link_right_wheel_visual">
       <origin rpy="0 0 3.141592" xyz="0 0 0"/>
       <geometry>
         <!--cylinder length="0.03" radius="0.09"/-->
-        <mesh filename="package://maze_generator/urdf/meshes/umouse_v2_wheel.stl" scale="0.003 0.003 0.003"/>
+        <mesh filename="package://maze_generator/urdf/meshes/umouse_wheel.stl" scale="0.003 0.003 0.003"/>
       </geometry>
     </visual>
   </link>
@@ -212,14 +212,14 @@
       <origin rpy="0 1.570796 1.570796" xyz="0 -0.015 0"/>
       <geometry>
         <cylinder length="0.03" radius="0.09"/>
-        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_v2_wheel.stl" scale="0.003 0.003 0.003"/-->
+        <!--mesh filename="package://maze_generator/urdf/meshes/umouse_wheel.stl" scale="0.003 0.003 0.003"/-->
       </geometry>
     </collision>
     <visual name="link_left_wheel_visual">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!--cylinder length="0.03" radius="0.09"/-->
-        <mesh filename="package://maze_generator/urdf/meshes/umouse_v2_wheel.stl" scale="0.003 0.003 0.003"/>
+        <mesh filename="package://maze_generator/urdf/meshes/umouse_wheel.stl" scale="0.003 0.003 0.003"/>
       </geometry>
     </visual>
   </link>
@@ -353,8 +353,8 @@
       <rightJoint>joint_right_wheel</rightJoint>
       <wheelSeparation>0.4380</wheelSeparation>
       <wheelDiameter>0.18</wheelDiameter>
-      <wheelAcceleration>3</wheelAcceleration>
-      <wheelTorque>50</wheelTorque>
+      <wheelAcceleration>1</wheelAcceleration>
+      <wheelTorque>30</wheelTorque>
       <rosDebugLevel>na</rosDebugLevel>
     </plugin>
   </gazebo>
