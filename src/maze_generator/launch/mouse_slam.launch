@@ -2,7 +2,7 @@
 
 <launch>
   <arg name="scan_topic"  default="scan" />
-  <arg name="base_frame"  default="link_chassis"/>
+  <arg name="base_frame"  default="chassis_base"/>
   <arg name="odom_frame"  default="odom"/>
 
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">

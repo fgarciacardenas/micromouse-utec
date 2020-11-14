@@ -63,24 +63,34 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        bcastor_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        chassis_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         chassis_inertia:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        chassis_sensors:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fcastor_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         imu_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        link_caster:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link_chassis:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         link_left_wheel:
           Alpha: 1
           Show Axes: false
@@ -92,6 +102,10 @@ Visualization Manager:
           Show Trail: false
           Value: true
         link_scan:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        sensor_lidar:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -136,7 +150,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: link_chassis
+    Fixed Frame: chassis_base
     Frame Rate: 30
   Name: root
   Tools:
